@@ -1,0 +1,26 @@
+.file-names {
+    display: none
+}
+.hyase_container {
+    padding: 5px;
+    border: 2px solid var(--dark-color-light);
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+}
+.hyase_container > input {
+    margin: 5px 0;
+}
+.return_message {
+    white-space: pre;
+    background: var(--dm-alert-border-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    pointer-events: all;
+    font-weight: 500;
+    overflow: auto;
+    max-height: 600px;
+}
+.input-group {
+    margin: 5px 0;
+}
